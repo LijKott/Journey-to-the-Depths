@@ -39,4 +39,72 @@ The deeper you go, the darker it gets—and the more dangerous your enemies beco
 
 ---
 
+## Git Commands for Collaborators
+
+This section explains how to clone, pull, push, and stay synced with the repository.
+
+### 🔹 1. Clone the Project
+Use this to download the project onto your computer:
+```bash
+git clone https://github.com/LijKott/Journey-to-the-Depths.git
+```
+Then open the project folder:
+```bash
+cd Journey-to-the-Depths
+```
+
+### 🔹 2. Check Your Branch
+Make sure you're working on the main branch:
+```bash
+git branch
+```
+If you're not, switch to it:
+```bash
+git checkout main
+```
+
+### 🔹 3. Get the Latest Updates
+Before you start working each session, pull the newest version:
+```bash
+git pull
+```
+If you get a message about unrelated histories:
+```bash
+git pull --allow-unrelated-histories
+```
+
+### 🔹 4. Save and Push Your Changes
+After editing or adding files:
+```bash
+git add .
+git commit -m "Describe what you changed"
+git push
+```
+
+### 🔹 5. If Your Push Is Rejected
+It means someone pushed changes before you. To update first:
+```bash
+git pull --rebase
+git push
+```
+
+### 🔹 6. See What's Going On
+Check the current status of your files:
+```bash
+git status
+```
+See your recent commits:
+```bash
+git log --oneline
+```
+
+### 🔹 7. Add a Remote (if missing)
+If you cloned directly, this is automatic.
+If not, set it manually:
+```bash
+git remote add origin https://github.com/LijKott/Journey-to-the-Depths.git
+```
+
+---
+
 *The ocean holds many secrets. Some should never be disturbed. But when everything has been taken from you, there's nothing left to fear—only vengeance to claim.*
