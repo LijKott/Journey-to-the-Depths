@@ -1,0 +1,24 @@
+[remap]
+
+importer="wav"
+type="AudioStreamWAV"
+uid="uid://c0jrxl61iwoy4"
+path="res://.godot/imported/Submove.wav-a2fd3f16c2460c8435f2040264975fb3.sample"
+
+[deps]
+
+source_file="res://assets/Sounds/Sound effects/Submove.wav"
+dest_files=["res://.godot/imported/Submove.wav-a2fd3f16c2460c8435f2040264975fb3.sample"]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop_mode=0
+edit/loop_begin=0
+edit/loop_end=-1
+compress/mode=2
